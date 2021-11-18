@@ -26,7 +26,7 @@ let numeroPreferito =parseInt(prompt('inserisci numero preferito'));
 console.log(colore);
 
 
-const numero = (7 * 3) + numeroPreferito;
+const numero = 5  + numeroPreferito ;
 console.log(numero);
 
 
