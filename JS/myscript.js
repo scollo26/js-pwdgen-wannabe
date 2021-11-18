@@ -5,6 +5,11 @@
 3 poi chiedi il suo colore preferito
 4 Infine scrivi sulla pagina nomecognomecolorepreferito21*/
 
+// Vi lascio il bonus per oggi:
+// chiediamo all'utente anche il suo numero preferito
+// al numero preferito sommiamo 5
+// attacchiamo alla password, al posto del 21, il risultato
+
 
 
 
@@ -22,11 +27,11 @@ console.log(cognome);
 let colore =prompt('inserisci colore preferito');
 console.log(colore);
 
-let numeroPreferito =parseInt(prompt('inserisci numero preferito'));
+let numeroPreferito =prompt('inserisci numero preferito');
 console.log(colore);
 
 
-const numero = 5  + numeroPreferito ;
+const numero =parseInt(numeroPreferito) + 5 ;
 console.log(numero);
 
 
