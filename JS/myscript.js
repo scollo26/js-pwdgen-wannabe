@@ -24,24 +24,24 @@ let colore =prompt('inserisci colore preferito');
 console.log(colore);
 
 
-const numero = 21;
+const numero =21;
 console.log(numero);
 
 
-let testo = ` ${nome}  ${cognome}  ${colore} `;
+let testo = ` ${nome}${cognome}${colore}${numero}  `;
 
 console.log(testo);
 
 
-let testo_completo = testo + numero;
-console.log(testo_completo);
+// let testo_completo = testo + numero;
+// console.log(testo_completo);
 
 
 // document.write(testo, numero );
 
 // document.getElementById("my-id").innerHTML = testo + numero;
 
-document.getElementById("my-id").innerHTML = testo_completo;
+document.getElementById("my-id").innerHTML = testo;
 
 
 
