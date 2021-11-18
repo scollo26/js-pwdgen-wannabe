@@ -20,11 +20,13 @@ let cognome =prompt('inserisci cognome');
 console.log(cognome);
 
 let colore =prompt('inserisci colore preferito');
+console.log(colore);
 
+let numeroPreferito =parseInt(prompt('inserisci numero preferito'));
 console.log(colore);
 
 
-const numero =21;
+const numero = (7 * 3) + numeroPreferito;
 console.log(numero);
 
 
