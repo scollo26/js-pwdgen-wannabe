@@ -30,9 +30,9 @@ const numero = (7 * 3) + numeroPreferito;
 console.log(numero);
 
 
-let testo = ` ${nome}${cognome}${colore}${numero}  `;
+let password = ` <h1>La tua password è </h1> ${nome}${cognome}${colore}${numero}  `;
 
-console.log(testo);
+console.log(password);
 
 
 // let testo_completo = testo + numero;
@@ -43,7 +43,7 @@ console.log(testo);
 
 // document.getElementById("my-id").innerHTML = testo + numero;
 
-document.getElementById("my-id").innerHTML = testo;
+document.getElementById("my-id").innerHTML = password;
 
 
 
